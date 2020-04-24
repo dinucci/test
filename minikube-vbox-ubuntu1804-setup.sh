@@ -12,10 +12,13 @@ sudo apt update && sudo apt upgrade -y
 
 ## Verify VMX/SVM
 grep -E --color 'vmx|svm' /proc/cpuinfo
+sleep 5
 
 ## Install VirtualBox
+sudo apt update
+sleep 1
 sudo apt install virtualbox-6.1 -y
-
+sleep 5
 
 ## Install Kubectl
 ## https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux
