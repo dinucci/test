@@ -19,29 +19,29 @@ Requirements:
                   -- Run Docker Instead
 
 Steps:
-1- Clone this repository
-git clone ....
 
-2- Enter test repository
-cd test
+ - 1- Clone this repository
+   - git clone ....
 
-3- Update OS and Set Up VirtualBox 6.1
-chmod +x virtualbox-6.1-ubuntu1804-setup.sh
-./virtualbox-6.1-ubuntu1804-setup.sh
+ - 2- Enter test repository
+   - cd test
 
-4- Reboot OS
-sudo reboot
+ - 3- Update OS and Set Up VirtualBox 6.1
+   - chmod +x virtualbox-6.1-ubuntu1804-setup.sh
+   - ./virtualbox-6.1-ubuntu1804-setup.sh
 
-5- Install Kubectl+Minikube & Run Minikube with VirtualBox driver
-chmod +x minikube-vbox-ubuntu1804-setup.sh
-./minikube-vbox-ubuntu1804-setup.sh
+ - 4- Reboot OS
+   - sudo reboot
 
-6- Verify installation
-kubectl get services
+ - 5- Install Kubectl+Minikube & Run Minikube with VirtualBox driver
+   - chmod +x minikube-vbox-ubuntu1804-setup.sh
+   - ./minikube-vbox-ubuntu1804-setup.sh
 
-7- If Installation fails because of drivers, Delete Minikube and proceed to Docker Setup.
-minikube delete
+ - 6- Verify installation
+   - kubectl get services
 
+ - 7- If Installation fails because of drivers, Delete Minikube and proceed to Docker Setup.
+   - minikube delete
 
 ------------------
 
@@ -57,19 +57,19 @@ Requirements:
  - Ubuntu 18.04
 
 Steps:
-1- Install Docker Engine
-chmod +x docker-ubuntu1804-setup.sh
-./docker-ubuntu1804-setup.sh
+ - 1- Install Docker Engine
+   - chmod +x docker-ubuntu1804-setup.sh
+   - ./docker-ubuntu1804-setup.sh
 
-2- Reboot OS
-sudo reboot
+ - 2- Reboot OS
+   - sudo reboot
 
-3- Minikube/Docker Drover Set Up
-chmod +x minikube-docker-ubuntu18.04-setup.sh
-./minikube-docker-ubuntu18.04-setup.sh
+ - 3- Minikube/Docker Drover Set Up
+   - chmod +x minikube-docker-ubuntu18.04-setup.sh
+   - ./minikube-docker-ubuntu18.04-setup.sh
 
-4- Verify installation
-kubectl get services
+ - 4- Verify installation
+   - kubectl get services
 
 
 
