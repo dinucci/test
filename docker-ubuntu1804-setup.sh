@@ -34,6 +34,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
 # Allow Non Root
-sudo usermod -aG docker test
+sudo usermod -aG docker $USER
 
 # Reboot
