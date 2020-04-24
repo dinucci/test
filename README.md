@@ -10,11 +10,17 @@ Kubernetes/Minikube tools for quick Dev/Test environments based on Ubuntu 18.04 
 Virtualization Driver: VirtualBox
 
 Requirements:
+ - Clean Ubuntu 18.04LTS Installation
+  - After Setup
+   - Update / Upgrade / Reboot 
+ 
  - CPU:
     - Intel: VT-X Enabled
     - AMD: VM-X Enabled
           - Virtualization Driver: Disabled
                   -- Run Docker Instead
+Specs:
+ 
 
 Steps:
 
