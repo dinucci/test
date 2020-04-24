@@ -62,7 +62,7 @@ Steps:
  - 2- Reboot OS
    - sudo reboot
 
- - 3- Minikube/Docker Drover Set Up
+ - 3- Minikube/Docker Driver Set Up
    - chmod +x minikube-docker-ubuntu18.04-setup.sh
    - ./minikube-docker-ubuntu18.04-setup.sh
 
