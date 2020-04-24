@@ -11,17 +11,20 @@ Virtualization Driver: VirtualBox
 
 Requirements:
  - Clean Ubuntu 18.04 LTS Installation
-  - After Setup
-   - Update / Upgrade / Reboot 
- 
  - CPU:
     - Intel: VT-X Enabled
     - AMD: VM-X Enabled
           - Virtualization Driver: Disabled
                   -- Run Docker Instead
 Specs:
+ - OS Update / Upgrade: Auto
+ - OS Reboot: Manual
+ - Virtualization Driver Set up: Auto
+ - OS Reboot: Manual
+ - Minikube Set up & Run: Auto
+ - minukube get services: Manual
+ - minikube delete: Manual :)
  
-
 Steps:
 
  - 1- Clone this repository
