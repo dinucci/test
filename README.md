@@ -5,9 +5,7 @@ Testing Environments for quick deployment
 user: test
 Change to whatever you want.
 
-Virtualization / Containers / Orchestration tools for quick Dev/Test environments based on Ubuntu 18.04 LTS
-
-Kubernetes/Minikube
+Kubernetes/Minikube tools for quick Dev/Test environments based on Ubuntu 18.04 LTS
 
 Virtualization Driver: VirtualBox
 
