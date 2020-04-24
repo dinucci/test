@@ -10,7 +10,7 @@ Kubernetes/Minikube tools for quick Dev/Test environments based on Ubuntu 18.04 
 Virtualization Driver: VirtualBox
 
 Requirements:
- - Clean Ubuntu 18.04LTS Installation
+ - Clean Ubuntu 18.04 LTS Installation
   - After Setup
    - Update / Upgrade / Reboot 
  
