@@ -20,7 +20,7 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 
-minikube start --driver=docker --cpus=4 --memory=4096
+minikube start --driver=docker --cpus=2 --memory=4096
 
   
   
@@ -39,7 +39,7 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 
 
 echo "updates helm"
-helm update
+helm repo update
 
 echo "helm updated"
 sleep 3
