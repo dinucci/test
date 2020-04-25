@@ -6,10 +6,10 @@ user: test
 Change to whatever you want.
 
 Kubernetes/Minikube tools for quick Dev/Test environments
-Ubuntu 20.04:
- - Virtualization Driver: Docker Engine
-Ubuntu 18.04
- - Virtualization Driver: VirtualBox / Docker Engine
+ - Ubuntu 20.04:
+   - Virtualization Driver: Docker Engine
+ - Ubuntu 18.04
+   - Virtualization Driver: VirtualBox / Docker Engine
 
 Requirements:
  - Clean Ubuntu 18.04/20.04 LTS Installation
