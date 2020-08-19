@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo pacman -Syuu
+
 sudo systemctl status sshd.service
 sudo systemctl enable sshd.service
 sudo systemctl start sshd.service
